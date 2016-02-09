@@ -1,0 +1,22 @@
+{
+  "name": "uber-amqp",
+  "version": "0.0.1",
+  "description": "Uber rest api app work over rabbitmq",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Kuzmenko",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.0",
+    "ect": "^0.5.9",
+    "express": "^4.13.4",
+    "express-session": "^1.12.1",
+    "node-twitter-api": "^1.6.2",
+    "primus": "^4.0.5",
+    "rabbit.js": "^0.4.4",
+    "request": "^2.69.0",
+    "ws": "^0.8.0"
+  }
+}

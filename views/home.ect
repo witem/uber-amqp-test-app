@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Search App</title>
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h3>Hello user: <%- @screen_name %> <img src="<%- @profile_image_url %>" alt="<%- @screen_name %>" /></h3>
+    <a class="button" href="/logout">Log out</a>
+    <form id="search_form">
+      <div>
+        <label>
+          Latitude:<br>
+          <input type="text" name="latitude" value="37.7759792" required>
+        </label>
+      </div>
+      <div>
+        <label>
+          Longitud:<br>
+          <input type="text" name="longitude" value="-122.41823" required>
+        </label>
+      </div>
+      <button type="submit">Search</button>
+    </form>
+    <div id="res_status" class="status"></div>
+    <div id="response" class="results"></div>
+  </div>
+  <script src="/primus/primus.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

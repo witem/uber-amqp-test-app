@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding: 10px 5px;
+  width: 450px;
+  margin: 10px auto;
+}
+h3 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+.form {
+  width: 250px;
+  margin: 0 auto;
+}
+.form input {
+  width: 100%;
+  padding: 3px 5px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.button,
+button {
+  padding: 5px 15px;
+  background-color: #D7D7D7;
+  border: solid 1px #A5A5A5;
+  border-radius: 10px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto 10px;
+}
+.status {
+  min-height: 30px;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #227D07;
+}
+.status.error {
+  color: #B53C3C;
+}
+.collage {
+  text-align: center;
+  padding: 5px 10px;
+}
+.results {
+  min-height: 30px;
+  padding: 5px 10px;
+  text-align: center;
+  color: #717171;
+}
+.results h4 {
+  font-weight: bold;
+  color: #000;
+}

@@ -1,0 +1,13 @@
+{
+  "amqp" : {
+    "connection_string" : "amqp://user_name:user_pass@server_ip"
+  },
+  "twitterAPI" : {
+    "consumerKey" : "consumerKey",
+    "consumerSecret" : "consumerSecret",
+    "callback" : "http://127.0.0.1:8080/sessions/callback"
+  },
+  "session" : {
+    "secret" : "secret keyboard cat"
+  }
+}
