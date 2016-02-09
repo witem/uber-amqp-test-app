@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 'use strict';
+process.on( 'uncaughtException', function( e ) {
+  console.error( e.stack || e );
+});
 
 var config = null;
 try {
